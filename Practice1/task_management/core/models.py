@@ -1,20 +1,27 @@
 from django.db import models 
+from django.contrib.auth.models import AbstractUser 
 
+ 
 
+class User(AbstractUser): 
 
-class User(models.Model): 
+    ROLE_CHOICES = [ 
 
-    first_name = models.CharField(max_length=50) 
+        ('admin', 'Admin'), 
 
-    last_name = models.CharField(max_length=50) 
+        ('manager', 'Manager'), 
 
-    email = models.EmailField(unique=True) 
+        ('employee', 'Employee'), 
+
+    ] 
+
+    role = models.CharField(max_length=20, choices=ROLE_CHOICES, default='employee') 
 
  
 
     def __str__(self): 
 
-        return f"{self.first_name} {self.last_name}" 
+        return f"{self.username} ({self.role})" 
 
  
 
