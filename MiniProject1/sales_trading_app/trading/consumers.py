@@ -29,9 +29,11 @@ class PriceChartConsumer(AsyncWebsocketConsumer):
     async def connect(self):
         await self.channel_layer.group_add("price_updates", self.channel_name)
         await self.accept()
+        self.running = True
 
     async def disconnect(self, close_code):
         await self.channel_layer.group_discard("price_updates", self.channel_name)
+        self.running = False
 
     async def send_price_update(self, event):
         await self.send(text_data=json.dumps(event["price_data"]))
@@ -41,7 +43,7 @@ class PriceChartConsumer(AsyncWebsocketConsumer):
         action = data.get("action")
 
         if action == "start_stream":
-            while True:
+            while self.running:
                 price_data = {
                     "asset": "BTC/USD",
                     "price": round(uniform(50000, 55000), 2)

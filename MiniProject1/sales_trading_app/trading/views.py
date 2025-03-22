@@ -21,7 +21,7 @@ class TraderOnlyView(APIView):
 class OrderListCreateView(generics.ListCreateAPIView):
     queryset = Order.objects.all()
     serializer_class = OrderSerializer
-    permission_classes = [IsAuthenticated, IsTrader | IsCustomer]
+    permission_classes = [IsAuthenticated, IsAdmin | IsTrader]
 
 class OrderDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Order.objects.all()

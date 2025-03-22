@@ -1,0 +1,523 @@
+INFO 2025-03-02 11:59:12,993 autoreload Watching for file changes with StatReloader
+INFO 2025-03-02 11:59:18,864 basehttp "POST /api/trading/orders/ HTTP/1.1" 201 142
+INFO 2025-03-02 12:01:10,576 basehttp "POST /api/trading/orders/ HTTP/1.1" 201 142
+INFO 2025-03-02 12:03:39,438 basehttp "POST /api/trading/orders/ HTTP/1.1" 201 142
+INFO 2025-03-11 10:56:03,187 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-11 10:59:58,142 log Not Found: /trading/order/
+WARNING 2025-03-11 10:59:58,142 basehttp "POST /trading/order/ HTTP/1.1" 404 3712
+WARNING 2025-03-11 11:02:04,089 log Not Found: /
+WARNING 2025-03-11 11:02:04,089 basehttp "GET / HTTP/1.1" 404 3651
+WARNING 2025-03-11 11:02:16,686 log Method Not Allowed: /api/token/
+WARNING 2025-03-11 11:02:16,687 basehttp "GET /api/token/ HTTP/1.1" 405 7609
+INFO 2025-03-11 11:02:16,702 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,702 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,704 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,704 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,704 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,705 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,705 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,705 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,705 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,705 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:16,708 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-03-11 11:02:16,722 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2025-03-11 11:02:22,724 log Unauthorized: /api/token/
+WARNING 2025-03-11 11:02:22,724 basehttp "POST /api/token/ HTTP/1.1" 401 7549
+INFO 2025-03-11 11:02:32,537 basehttp "GET /admin/ HTTP/1.1" 200 8168
+INFO 2025-03-11 11:02:32,561 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:32,561 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:32,561 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:32,561 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:32,561 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:32,562 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:32,562 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:32,568 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-03-11 11:02:32,568 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-03-11 11:02:34,641 basehttp "GET /admin/users/user/ HTTP/1.1" 200 9139
+INFO 2025-03-11 11:02:34,667 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,668 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,669 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,669 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,669 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,669 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,671 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,672 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,672 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-03-11 11:02:34,672 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:02:34,675 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-11 11:02:34,688 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+WARNING 2025-03-11 11:02:38,685 log Not Found: /
+WARNING 2025-03-11 11:02:38,685 basehttp "GET / HTTP/1.1" 404 3651
+WARNING 2025-03-11 11:02:48,842 log Method Not Allowed: /api/token/
+WARNING 2025-03-11 11:02:48,843 basehttp "GET /api/token/ HTTP/1.1" 405 7609
+WARNING 2025-03-11 11:02:48,879 log Not Found: /favicon.ico
+INFO 2025-03-11 11:02:48,880 basehttp - Broken pipe from ('127.0.0.1', 54344)
+INFO 2025-03-11 11:02:53,605 basehttp "POST /api/token/ HTTP/1.1" 200 8053
+WARNING 2025-03-11 11:03:45,012 log Not Found: /trading/order/
+WARNING 2025-03-11 11:03:45,013 basehttp "POST /trading/order/ HTTP/1.1" 404 3712
+WARNING 2025-03-11 11:04:12,166 log Not Found: /api/trading/order/
+WARNING 2025-03-11 11:04:12,166 basehttp "POST /api/trading/order/ HTTP/1.1" 404 4411
+WARNING 2025-03-11 11:04:32,429 log Not Found: /api
+WARNING 2025-03-11 11:04:32,430 basehttp "GET /api HTTP/1.1" 404 3678
+WARNING 2025-03-11 11:04:36,487 log Not Found: /api/trading/
+WARNING 2025-03-11 11:04:36,488 basehttp "GET /api/trading/ HTTP/1.1" 404 4392
+INFO 2025-03-11 11:04:40,252 basehttp "GET /api/trading/orders/ HTTP/1.1" 200 12660
+WARNING 2025-03-11 11:05:14,092 log Bad Request: /api/trading/orders/
+WARNING 2025-03-11 11:05:14,092 basehttp "POST /api/trading/orders/ HTTP/1.1" 400 122
+WARNING 2025-03-11 11:06:49,389 log Bad Request: /api/trading/orders/
+WARNING 2025-03-11 11:06:49,390 basehttp "POST /api/trading/orders/ HTTP/1.1" 400 49
+INFO 2025-03-11 11:07:03,673 basehttp "POST /api/trading/orders/ HTTP/1.1" 201 143
+INFO 2025-03-11 11:07:11,106 basehttp "GET /api/trading/orders/ HTTP/1.1" 200 13014
+WARNING 2025-03-11 11:07:11,139 log Not Found: /favicon.ico
+INFO 2025-03-11 11:07:11,139 basehttp - Broken pipe from ('127.0.0.1', 54376)
+WARNING 2025-03-11 11:10:26,074 log Not Found: /api/
+WARNING 2025-03-11 11:10:26,075 basehttp "GET /api/ HTTP/1.1" 404 3681
+WARNING 2025-03-11 11:10:32,365 log Not Found: /api/users/
+WARNING 2025-03-11 11:10:32,366 basehttp "GET /api/users/ HTTP/1.1" 404 4078
+WARNING 2025-03-11 11:10:36,972 log Method Not Allowed: /api/users/register/
+WARNING 2025-03-11 11:10:36,972 basehttp "GET /api/users/register/ HTTP/1.1" 405 7941
+WARNING 2025-03-11 11:10:37,015 log Not Found: /favicon.ico
+INFO 2025-03-11 11:10:37,016 basehttp - Broken pipe from ('127.0.0.1', 54426)
+INFO 2025-03-11 11:10:56,313 basehttp "POST /api/users/register/ HTTP/1.1" 201 8559
+WARNING 2025-03-11 11:10:56,349 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:10:56,350 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:10:56,350 basehttp - Broken pipe from ('127.0.0.1', 54432)
+WARNING 2025-03-11 11:11:07,616 log Not Found: /api/products/
+WARNING 2025-03-11 11:11:07,617 basehttp "GET /api/products/ HTTP/1.1" 404 4400
+INFO 2025-03-11 11:11:11,300 basehttp "GET /api/products/products/ HTTP/1.1" 200 10101
+WARNING 2025-03-11 11:11:11,337 log Not Found: /favicon.ico
+INFO 2025-03-11 11:11:11,337 basehttp - Broken pipe from ('127.0.0.1', 54435)
+WARNING 2025-03-11 11:11:15,427 log Not Found: /product_images/7.jpg
+WARNING 2025-03-11 11:11:15,428 basehttp "GET /product_images/7.jpg HTTP/1.1" 404 3729
+INFO 2025-03-11 11:11:27,366 basehttp "GET /api/products/categories/ HTTP/1.1" 200 8670
+WARNING 2025-03-11 11:11:27,400 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:11:27,400 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:11:27,400 basehttp - Broken pipe from ('127.0.0.1', 54437)
+INFO 2025-03-11 11:11:35,682 basehttp "POST /api/products/categories/ HTTP/1.1" 201 8665
+WARNING 2025-03-11 11:11:35,711 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:11:35,711 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:11:35,712 basehttp - Broken pipe from ('127.0.0.1', 54440)
+WARNING 2025-03-11 11:11:48,448 log Not Found: /api/
+WARNING 2025-03-11 11:11:48,448 basehttp "GET /api/ HTTP/1.1" 404 3681
+WARNING 2025-03-11 11:11:56,953 log Not Found: /api/analytics/
+WARNING 2025-03-11 11:11:56,954 basehttp "GET /api/analytics/ HTTP/1.1" 404 4141
+INFO 2025-03-11 11:12:07,343 basehttp "GET /api/analytics/reports/ HTTP/1.1" 200 8839
+WARNING 2025-03-11 11:12:07,383 log Not Found: /favicon.ico
+INFO 2025-03-11 11:12:07,383 basehttp - Broken pipe from ('127.0.0.1', 54444)
+ERROR 2025-03-11 11:12:16,616 log Internal Server Error: /api/analytics/reports/
+Traceback (most recent call last):
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "data" of relation "analytics_analyticsreport" violates not-null constraint
+DETAIL:  Failing row contains (1, TestReport, null, 2025-03-11 11:12:16.569304+00).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 891, in save
+    self.save_base(
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "data" of relation "analytics_analyticsreport" violates not-null constraint
+DETAIL:  Failing row contains (1, TestReport, null, 2025-03-11 11:12:16.569304+00).
+
+ERROR 2025-03-11 11:12:16,624 basehttp "POST /api/analytics/reports/ HTTP/1.1" 500 196484
+INFO 2025-03-11 11:12:22,291 basehttp "GET /api/analytics/reports/ HTTP/1.1" 200 8839
+WARNING 2025-03-11 11:12:22,328 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:12:22,328 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:12:22,328 basehttp - Broken pipe from ('127.0.0.1', 54466)
+ERROR 2025-03-11 11:12:25,022 log Internal Server Error: /api/analytics/reports/
+Traceback (most recent call last):
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "data" of relation "analytics_analyticsreport" violates not-null constraint
+DETAIL:  Failing row contains (2, TestReport, null, 2025-03-11 11:12:24.981437+00).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 891, in save
+    self.save_base(
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 997, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 1160, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/base.py", line 1201, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/zhalgasbagytzhan/Desktop/KBTU/Django/myenv/lib/python3.12/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "data" of relation "analytics_analyticsreport" violates not-null constraint
+DETAIL:  Failing row contains (2, TestReport, null, 2025-03-11 11:12:24.981437+00).
+
+ERROR 2025-03-11 11:12:25,024 basehttp "POST /api/analytics/reports/ HTTP/1.1" 500 196484
+INFO 2025-03-11 11:13:19,688 basehttp "GET /api/analytics/reports/ HTTP/1.1" 200 8839
+WARNING 2025-03-11 11:13:19,721 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:13:19,722 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:13:19,722 basehttp - Broken pipe from ('127.0.0.1', 54470)
+WARNING 2025-03-11 11:13:36,809 log Bad Request: /api/analytics/reports/
+WARNING 2025-03-11 11:13:36,809 basehttp "POST /api/analytics/reports/ HTTP/1.1" 400 9036
+WARNING 2025-03-11 11:13:57,821 log Bad Request: /api/analytics/reports/
+WARNING 2025-03-11 11:13:57,822 basehttp "POST /api/analytics/reports/ HTTP/1.1" 400 9041
+WARNING 2025-03-11 11:14:06,834 log Bad Request: /api/analytics/reports/
+WARNING 2025-03-11 11:14:06,834 basehttp "POST /api/analytics/reports/ HTTP/1.1" 400 9053
+INFO 2025-03-11 11:14:50,170 basehttp "POST /api/analytics/reports/ HTTP/1.1" 201 9125
+INFO 2025-03-11 11:15:09,212 basehttp "POST /api/analytics/reports/ HTTP/1.1" 201 9127
+WARNING 2025-03-11 11:15:09,245 log Not Found: /favicon.ico
+INFO 2025-03-11 11:15:09,245 basehttp - Broken pipe from ('127.0.0.1', 54474)
+WARNING 2025-03-11 11:15:21,423 log Not Found: /api/swagger/
+WARNING 2025-03-11 11:15:21,424 basehttp "GET /api/swagger/ HTTP/1.1" 404 3705
+INFO 2025-03-11 11:15:28,707 basehttp "GET /swagger/ HTTP/1.1" 200 2452
+INFO 2025-03-11 11:15:28,731 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-03-11 11:15:28,733 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:15:28,733 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-03-11 11:15:28,734 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-03-11 11:15:28,735 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-03-11 11:15:28,736 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-03-11 11:15:28,739 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-03-11 11:15:28,852 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 14167
+WARNING 2025-03-11 11:15:49,090 log Not Found: /api/redoc/
+WARNING 2025-03-11 11:15:49,091 basehttp "GET /api/redoc/ HTTP/1.1" 404 3699
+INFO 2025-03-11 11:15:53,619 basehttp "GET /redoc/ HTTP/1.1" 200 938
+INFO 2025-03-11 11:15:53,634 basehttp "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 200 2566
+INFO 2025-03-11 11:15:53,638 basehttp "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 200 1042511
+INFO 2025-03-11 11:15:53,734 basehttp "GET /redoc/?format=openapi HTTP/1.1" 200 14167
+INFO 2025-03-11 11:15:53,735 basehttp "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 200 4969
+WARNING 2025-03-11 11:16:12,428 log Not Found: /api/sales/
+WARNING 2025-03-11 11:16:12,429 basehttp "GET /api/sales/ HTTP/1.1" 404 4398
+WARNING 2025-03-11 11:16:17,389 log Not Found: /api/sales/invoice/
+WARNING 2025-03-11 11:16:17,389 basehttp "GET /api/sales/invoice/ HTTP/1.1" 404 4422
+INFO 2025-03-11 11:16:21,303 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:16:21,337 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:16:21,337 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:16:21,337 basehttp - Broken pipe from ('127.0.0.1', 54501)
+INFO 2025-03-11 11:16:34,223 basehttp "GET /admin/ HTTP/1.1" 200 8168
+INFO 2025-03-11 11:16:35,980 basehttp "GET /admin/users/user/ HTTP/1.1" 200 9401
+INFO 2025-03-11 11:16:36,008 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-03-11 11:16:36,008 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-03-11 11:16:36,008 basehttp - Broken pipe from ('127.0.0.1', 54500)
+INFO 2025-03-11 11:16:36,018 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-03-11 11:16:36,032 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:16:36,032 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:16:36,032 basehttp - Broken pipe from ('127.0.0.1', 54502)
+INFO 2025-03-11 11:16:37,429 basehttp "GET /admin/users/user/2/change/ HTTP/1.1" 200 23428
+INFO 2025-03-11 11:16:37,458 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2025-03-11 11:16:37,460 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:16:37,462 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:16:37,464 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:16:37,465 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-03-11 11:16:37,465 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2025-03-11 11:16:37,468 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-11 11:16:37,493 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-03-11 11:16:37,493 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-03-11 11:16:42,205 basehttp "POST /admin/users/user/2/change/ HTTP/1.1" 302 0
+INFO 2025-03-11 11:16:42,225 basehttp "GET /admin/users/user/ HTTP/1.1" 200 9595
+INFO 2025-03-11 11:16:42,256 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-11 11:16:42,269 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-03-11 11:16:56,109 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:16:56,144 log Not Found: /favicon.ico
+INFO 2025-03-11 11:16:56,145 basehttp - Broken pipe from ('127.0.0.1', 54503)
+INFO 2025-03-11 11:17:08,945 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:17:08,976 log Not Found: /favicon.ico
+INFO 2025-03-11 11:17:08,976 basehttp - Broken pipe from ('127.0.0.1', 54504)
+WARNING 2025-03-11 11:17:11,585 log Not Found: /api/sales/invoice
+WARNING 2025-03-11 11:17:11,585 basehttp "GET /api/sales/invoice HTTP/1.1" 404 4419
+INFO 2025-03-11 11:17:23,716 basehttp "GET /api/sales/sales-orders/ HTTP/1.1" 200 10287
+INFO 2025-03-11 11:17:34,393 basehttp "POST /api/sales/sales-orders/ HTTP/1.1" 201 10595
+WARNING 2025-03-11 11:17:34,425 log Not Found: /favicon.ico
+INFO 2025-03-11 11:17:34,426 basehttp - Broken pipe from ('127.0.0.1', 54515)
+INFO 2025-03-11 11:17:36,944 basehttp "GET /api/sales/sales-orders/ HTTP/1.1" 200 10597
+WARNING 2025-03-11 11:17:36,980 log Not Found: /favicon.ico
+INFO 2025-03-11 11:17:36,980 basehttp - Broken pipe from ('127.0.0.1', 54497)
+INFO 2025-03-11 11:17:43,809 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:17:55,500 log Method Not Allowed: /api/users/login/
+WARNING 2025-03-11 11:17:55,500 basehttp "GET /api/users/login/ HTTP/1.1" 405 7487
+WARNING 2025-03-11 11:17:55,534 log Not Found: /favicon.ico
+INFO 2025-03-11 11:17:55,534 basehttp - Broken pipe from ('127.0.0.1', 54531)
+WARNING 2025-03-11 11:18:03,094 log Bad Request: /api/users/login/
+WARNING 2025-03-11 11:18:03,094 basehttp "POST /api/users/login/ HTTP/1.1" 400 7529
+WARNING 2025-03-11 11:18:03,130 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:18:03,130 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:18:03,130 basehttp - Broken pipe from ('127.0.0.1', 54529)
+WARNING 2025-03-11 11:18:07,048 log Bad Request: /api/users/login/
+WARNING 2025-03-11 11:18:07,048 basehttp "POST /api/users/login/ HTTP/1.1" 400 7529
+WARNING 2025-03-11 11:18:07,083 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:18:07,083 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:18:07,083 basehttp - Broken pipe from ('127.0.0.1', 54534)
+WARNING 2025-03-11 11:18:48,477 log Not Found: /favicon.ico
+INFO 2025-03-11 11:18:48,477 basehttp - Broken pipe from ('127.0.0.1', 54538)
+WARNING 2025-03-11 11:18:49,390 log Method Not Allowed: /api/users/login/
+WARNING 2025-03-11 11:18:49,391 basehttp "GET /api/users/login/ HTTP/1.1" 405 7487
+WARNING 2025-03-11 11:18:59,116 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:18:59,117 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:18:59,117 basehttp - Broken pipe from ('127.0.0.1', 54539)
+INFO 2025-03-11 11:19:06,378 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:19:06,413 log Not Found: /favicon.ico
+INFO 2025-03-11 11:19:06,414 basehttp - Broken pipe from ('127.0.0.1', 54544)
+INFO 2025-03-11 11:19:09,272 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:19:09,301 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:19:09,301 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:19:09,301 basehttp - Broken pipe from ('127.0.0.1', 54546)
+INFO 2025-03-11 11:19:09,770 basehttp "OPTIONS /api/sales/invoices/ HTTP/1.1" 200 5597
+INFO 2025-03-11 11:19:12,701 basehttp "OPTIONS /api/sales/invoices/ HTTP/1.1" 200 5597
+INFO 2025-03-11 11:19:15,757 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+INFO 2025-03-11 11:23:39,412 autoreload /Users/zhalgasbagytzhan/Desktop/KBTU/Django/Django2025/MiniProject1/sales_trading_app/sales/views.py changed, reloading.
+INFO 2025-03-11 11:23:39,917 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 11:24:00,007 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+INFO 2025-03-11 11:24:00,026 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-03-11 11:24:00,026 basehttp - Broken pipe from ('127.0.0.1', 54585)
+WARNING 2025-03-11 11:24:00,037 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:24:00,037 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:24:00,037 basehttp - Broken pipe from ('127.0.0.1', 54588)
+INFO 2025-03-11 11:24:51,450 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 2
+INFO 2025-03-11 11:26:14,641 autoreload /Users/zhalgasbagytzhan/Desktop/KBTU/Django/Django2025/MiniProject1/sales_trading_app/sales/views.py changed, reloading.
+INFO 2025-03-11 11:26:15,074 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 11:29:49,352 autoreload /Users/zhalgasbagytzhan/Desktop/KBTU/Django/Django2025/MiniProject1/sales_trading_app/sales/views.py changed, reloading.
+INFO 2025-03-11 11:29:49,809 autoreload Watching for file changes with StatReloader
+INFO 2025-03-11 11:30:21,008 autoreload /Users/zhalgasbagytzhan/Desktop/KBTU/Django/Django2025/MiniProject1/sales_trading_app/sales/urls.py changed, reloading.
+INFO 2025-03-11 11:30:21,390 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-11 11:30:23,878 log Not Found: /product_images/7.jpg
+WARNING 2025-03-11 11:30:23,879 basehttp "GET /product_images/7.jpg HTTP/1.1" 404 3729
+INFO 2025-03-11 11:30:28,293 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:30:28,329 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:30:28,329 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:30:28,329 basehttp - Broken pipe from ('127.0.0.1', 54761)
+INFO 2025-03-11 11:30:32,834 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:30:32,866 log Not Found: /favicon.ico
+INFO 2025-03-11 11:30:32,866 basehttp - Broken pipe from ('127.0.0.1', 54766)
+INFO 2025-03-11 11:30:33,284 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+INFO 2025-03-11 11:30:43,702 basehttp "GET /admin/ HTTP/1.1" 200 8511
+INFO 2025-03-11 11:30:43,727 basehttp - Broken pipe from ('127.0.0.1', 54768)
+INFO 2025-03-11 11:30:43,727 basehttp - Broken pipe from ('127.0.0.1', 54770)
+INFO 2025-03-11 11:30:45,036 basehttp "GET /admin/users/user/ HTTP/1.1" 200 9401
+INFO 2025-03-11 11:30:45,055 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-03-11 11:30:45,055 basehttp - Broken pipe from ('127.0.0.1', 54772)
+INFO 2025-03-11 11:30:45,060 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-03-11 11:30:45,075 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:30:45,075 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:30:45,075 basehttp - Broken pipe from ('127.0.0.1', 54773)
+INFO 2025-03-11 11:30:46,358 basehttp "GET /admin/users/user/2/change/ HTTP/1.1" 200 23428
+INFO 2025-03-11 11:30:46,386 basehttp - Broken pipe from ('127.0.0.1', 54778)
+INFO 2025-03-11 11:30:46,390 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-11 11:30:49,800 basehttp "POST /admin/users/user/2/change/ HTTP/1.1" 302 0
+INFO 2025-03-11 11:30:49,824 basehttp "GET /admin/users/user/ HTTP/1.1" 200 9595
+INFO 2025-03-11 11:30:49,858 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-11 11:30:52,993 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+WARNING 2025-03-11 11:30:53,022 log Not Found: /favicon.ico
+INFO 2025-03-11 11:30:53,022 basehttp - Broken pipe from ('127.0.0.1', 54779)
+INFO 2025-03-11 11:30:53,611 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5234
+INFO 2025-03-11 11:31:18,737 autoreload /Users/zhalgasbagytzhan/Desktop/KBTU/Django/Django2025/MiniProject1/sales_trading_app/sales/urls.py changed, reloading.
+INFO 2025-03-11 11:31:19,167 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-11 11:31:24,129 log Method Not Allowed: /api/sales/sales-orders/
+WARNING 2025-03-11 11:31:24,130 basehttp "GET /api/sales/sales-orders/ HTTP/1.1" 405 7672
+INFO 2025-03-11 11:31:29,924 basehttp "POST /api/sales/sales-orders/ HTTP/1.1" 201 7784
+WARNING 2025-03-11 11:31:29,953 log Not Found: /favicon.ico
+WARNING 2025-03-11 11:31:29,953 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 11:31:29,954 basehttp - Broken pipe from ('127.0.0.1', 54798)
+INFO 2025-03-11 11:31:49,314 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5441
+WARNING 2025-03-11 11:31:49,357 log Not Found: /favicon.ico
+INFO 2025-03-11 11:31:49,358 basehttp - Broken pipe from ('127.0.0.1', 54807)
+INFO 2025-03-11 11:31:59,384 basehttp "GET /api/sales/invoices/1/pdf/ HTTP/1.1" 200 1464
+WARNING 2025-03-11 13:02:18,582 log Not Found: /
+WARNING 2025-03-11 13:02:18,586 basehttp "GET / HTTP/1.1" 404 3651
+INFO 2025-03-11 13:02:24,995 autoreload Watching for file changes with StatReloader
+WARNING 2025-03-11 13:02:38,371 log Not Found: /users/
+WARNING 2025-03-11 13:02:38,371 basehttp "GET /users/ HTTP/1.1" 404 3687
+WARNING 2025-03-11 13:02:48,366 log Method Not Allowed: /api/users/register/
+WARNING 2025-03-11 13:02:48,367 basehttp "GET /api/users/register/ HTTP/1.1" 405 7941
+WARNING 2025-03-11 13:02:48,402 log Not Found: /favicon.ico
+WARNING 2025-03-11 13:02:48,402 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 13:02:48,402 basehttp - Broken pipe from ('127.0.0.1', 55621)
+INFO 2025-03-11 13:03:06,891 basehttp "POST /api/users/register/ HTTP/1.1" 201 8554
+WARNING 2025-03-11 13:03:06,934 log Not Found: /favicon.ico
+WARNING 2025-03-11 13:03:06,934 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 13:03:06,934 basehttp - Broken pipe from ('127.0.0.1', 55630)
+WARNING 2025-03-11 13:03:11,312 log Method Not Allowed: /api/users/register/
+WARNING 2025-03-11 13:03:11,313 basehttp "GET /api/users/register/ HTTP/1.1" 405 7941
+INFO 2025-03-11 13:03:21,075 basehttp "GET /api/products/products/ HTTP/1.1" 200 10191
+INFO 2025-03-11 13:03:41,970 basehttp "POST /api/products/products/ HTTP/1.1" 201 10243
+WARNING 2025-03-11 13:03:42,009 log Not Found: /favicon.ico
+WARNING 2025-03-11 13:03:42,009 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 13:03:42,009 basehttp - Broken pipe from ('127.0.0.1', 55633)
+INFO 2025-03-11 13:03:52,480 basehttp "GET /api/products/categories/ HTTP/1.1" 200 8758
+WARNING 2025-03-11 13:03:52,515 log Not Found: /favicon.ico
+WARNING 2025-03-11 13:03:52,515 basehttp "GET /favicon.ico HTTP/1.1" 404 3702
+INFO 2025-03-11 13:03:52,515 basehttp - Broken pipe from ('127.0.0.1', 55644)
+INFO 2025-03-11 13:03:56,600 basehttp "GET /api/products/products/ HTTP/1.1" 200 10576
+WARNING 2025-03-11 13:04:04,581 log Not Found: /sales/
+WARNING 2025-03-11 13:04:04,582 basehttp "GET /sales/ HTTP/1.1" 404 3687
+WARNING 2025-03-11 13:04:10,854 log Not Found: /api/sales/
+WARNING 2025-03-11 13:04:10,854 basehttp "GET /api/sales/ HTTP/1.1" 404 4697
+WARNING 2025-03-11 13:04:14,561 log Method Not Allowed: /api/sales/sales-orders/
+WARNING 2025-03-11 13:04:14,562 basehttp "GET /api/sales/sales-orders/ HTTP/1.1" 405 7672
+WARNING 2025-03-11 13:04:14,601 log Not Found: /favicon.ico
+INFO 2025-03-11 13:04:14,602 basehttp - Broken pipe from ('127.0.0.1', 55643)
+WARNING 2025-03-11 13:04:21,129 log Bad Request: /api/sales/sales-orders/
+WARNING 2025-03-11 13:04:21,130 basehttp "POST /api/sales/sales-orders/ HTTP/1.1" 400 7786
+INFO 2025-03-11 13:04:26,207 basehttp "POST /api/sales/sales-orders/ HTTP/1.1" 201 7784
+INFO 2025-03-11 13:04:33,184 basehttp "GET /api/sales/sales-orders/1 HTTP/1.1" 301 0
+INFO 2025-03-11 13:04:33,222 basehttp "GET /api/sales/sales-orders/1/ HTTP/1.1" 200 12126
+INFO 2025-03-11 13:04:50,897 basehttp "PUT /api/sales/sales-orders/1/ HTTP/1.1" 200 12127
+INFO 2025-03-11 13:04:58,247 basehttp "GET /api/sales/invoices/ HTTP/1.1" 200 5648
+WARNING 2025-03-11 13:04:58,285 log Not Found: /favicon.ico
+INFO 2025-03-11 13:04:58,285 basehttp - Broken pipe from ('127.0.0.1', 55656)
+INFO 2025-03-11 13:05:07,128 basehttp "GET /api/sales/invoices/2/pdf/ HTTP/1.1" 200 1464
+WARNING 2025-03-11 13:05:23,229 log Not Found: /api/trading/
+WARNING 2025-03-11 13:05:23,229 basehttp "GET /api/trading/ HTTP/1.1" 404 4392
+INFO 2025-03-11 13:05:28,302 basehttp "GET /api/trading/orders/ HTTP/1.1" 200 13258
+WARNING 2025-03-11 13:05:28,338 log Not Found: /favicon.ico
+INFO 2025-03-11 13:05:28,339 basehttp - Broken pipe from ('127.0.0.1', 55663)
+INFO 2025-03-11 13:05:43,981 basehttp "GET /api/trading/transactions/ HTTP/1.1" 200 5298
+INFO 2025-03-11 13:05:53,180 basehttp "GET /swagger/ HTTP/1.1" 200 2452
+INFO 2025-03-11 13:05:53,278 basehttp - Broken pipe from ('127.0.0.1', 55673)
+INFO 2025-03-11 13:05:53,310 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 13935
+INFO 2025-03-11 13:06:03,203 basehttp "GET /redoc/ HTTP/1.1" 200 938
+INFO 2025-03-11 13:06:03,312 basehttp "GET /redoc/?format=openapi HTTP/1.1" 200 13935
+WARNING 2025-03-11 13:06:23,984 log Not Found: /api/analytics/
+WARNING 2025-03-11 13:06:23,985 basehttp "GET /api/analytics/ HTTP/1.1" 404 4141
+WARNING 2025-03-11 13:06:24,004 log Not Found: /favicon.ico
+INFO 2025-03-11 13:06:24,005 basehttp - Broken pipe from ('127.0.0.1', 55677)
+INFO 2025-03-11 13:06:27,269 basehttp "GET /api/analytics/reports/ HTTP/1.1" 200 9356
+WARNING 2025-03-11 13:06:27,306 log Not Found: /favicon.ico
+INFO 2025-03-11 13:06:27,307 basehttp - Broken pipe from ('127.0.0.1', 55690)
+WARNING 2025-03-11 13:06:38,117 log Not Found: /api/analytics/
+WARNING 2025-03-11 13:06:38,117 basehttp "GET /api/analytics/ HTTP/1.1" 404 4141
