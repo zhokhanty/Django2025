@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Профиль</h2>
+<p>Имя пользователя: {{ user.username }}</p>
+<p>Email: {{ user.email }}</p>
+
+{% if user.profile.avatar %}
+    <img src="{{ user.profile.avatar.url }}" alt="Аватар">
+{% else %}
+    <p>Аватар не загружен</p>
+{% endif %}
+
+<p><a href="{% url 'logout' %}">Выйти</a></p>
+{% endblock %}
